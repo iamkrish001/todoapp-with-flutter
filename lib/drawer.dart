@@ -22,7 +22,13 @@ class _drawerState extends State<drawer> {
         children: [
           DrawerHeader(
             decoration: BoxDecoration(color: Colors.indigo),
-            child: null,
+            child: Text(
+              'Flutter App',
+              style: TextStyle(
+                color: Colors.white,
+                fontSize: 18,
+              ),
+            ),
           ),
           ListTile(
             title: const Text(
