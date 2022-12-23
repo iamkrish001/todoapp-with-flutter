@@ -1,0 +1,14 @@
+ bottomNavigationBar: BottomNavigationBar(
+//         currentIndex: _currentindex,
+//         onTap: (index) {
+//           _pageController.animateToPage(index,
+// duration: Duration(seconds: 1), curve: Curves.decelerate);
+//         },
+//         // ignore: prefer_const_literals_to_create_immutables
+//         items: [
+//           BottomNavigationBarItem(icon: Icon(Icons.chat), label: "Chat"),
+//           BottomNavigationBarItem(icon: Icon(Icons.call), label: "Call"),
+//           BottomNavigationBarItem(
+//               icon: Icon(Icons.settings), label: "Settings "),
+//         ],
+//       ),

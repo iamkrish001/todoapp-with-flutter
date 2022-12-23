@@ -1,3 +1,5 @@
+// ignore_for_file: prefer_const_constructors
+
 import 'package:flutter/material.dart';
 
 class Call extends StatelessWidget {
@@ -5,12 +7,20 @@ class Call extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Material(
-   color: Color.fromARGB(255, 0, 140, 255),
+    return Material(
       child: Center(
-          child: Text(
-        "Settings",
-        style: TextStyle(fontSize: 30, color: Colors.white),
+          child: Padding(
+        padding: const EdgeInsets.all(3),
+        child: Container(
+          color: Colors.purple,
+          child: Expanded(
+            child: Text(
+              "    I am\nlearning",
+              style: TextStyle(
+                  color: Color.fromARGB(255, 83, 160, 223), fontSize: 15),
+            ),
+          ),
+        ),
       )),
     );
   }

@@ -12,9 +12,9 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    
     // ignore: prefer_const_constructors
     return MaterialApp(
-      theme: ThemeData(primarySwatch:Colors.indigo),
       initialRoute: '/',
       // ignore: prefer_const_literals_to_create_immutables
       routes: {
