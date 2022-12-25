@@ -13,6 +13,7 @@ class loginpage extends StatefulWidget {
 // ignore: camel_case_types
 class _loginpageState extends State<loginpage> {
   String name = "";
+  bool change = false;
   @override
   Widget build(BuildContext context) {
     return Material(
@@ -48,21 +49,37 @@ class _loginpageState extends State<loginpage> {
                   },
                 ),
                 TextFormField(
-                  obscureText: true,
+                  obscureText: true, // to hide the password
                   decoration: const InputDecoration(
                     labelText: "Password",
                     hintText: "Enter password",
                   ),
                 ),
-                Padding(
-                  padding: const EdgeInsets.symmetric(vertical: 20),
-                  child: ElevatedButton(
-                      onPressed: () {
-                        Navigator.pushNamed(context, '/1');
-                      },
-                      child: const Text(
-                        'LOGIN',
-                      )),
+                const SizedBox(height: 50),
+                InkWell(
+                  onTap: () {
+                    setState(() {
+                      change = true;
+                    });
+                  },
+                  child: AnimatedContainer(
+                    alignment: Alignment.center,
+                    width: change ? 50 : 150,
+                    height: change ? 50 : 40,
+                    duration: const Duration(seconds: 4),
+                    decoration: BoxDecoration(
+                      shape: change ? BoxShape.circle : BoxShape.rectangle,
+                      color: Colors.indigo,
+                    ),
+                    child: change
+                        ? const Icon(Icons.done, color: Colors.white)
+                        : const Text(
+                            'Login',
+                            style: TextStyle(
+                                color: Colors.white,
+                                fontWeight: FontWeight.bold),
+                          ),
+                  ),
                 ),
                 Padding(
                   padding: const EdgeInsets.symmetric(vertical: 65),
