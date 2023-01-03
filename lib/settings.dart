@@ -14,7 +14,7 @@ class Settings extends StatelessWidget {
             children: [
               Card(
                 elevation: 3.0,
-                color: Colors.lightBlue.shade300,
+                color: Color.fromRGBO(79, 195, 247, 1),
               ),
               SizedBox(
                 height: 300,
@@ -42,7 +42,10 @@ class Settings extends StatelessWidget {
                 ),
               ),
               IconButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.of(context)
+                        .pushNamedAndRemoveUntil("/1", (route) => false);
+                  },
                   icon: Icon(
                     Icons.arrow_back,
                     size: 30,

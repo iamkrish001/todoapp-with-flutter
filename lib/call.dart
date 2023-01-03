@@ -7,34 +7,113 @@ class Call extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    
-    return Material(
-        child: Center(
-      child: Column(
-        children: [
-          InkWell(
-            onTap: () {
-              Navigator.pushNamed(context, '/');
-            },
+    // ignore: prefer_typing_uninitialized_variables
 
-            // ignore: sort_child_properties_last
-            child: AnimatedContainer(
-              margin: EdgeInsets.all(10),
-              height: 300,
-              duration: Duration(seconds: 2),
-              decoration: BoxDecoration(
-                  borderRadius: BorderRadiusDirectional.circular(50),
-                  color: Colors.indigo.shade300),
-              width: 300,
-              alignment: Alignment.center,
-              child: Text(
-                "Explore \nHold the button for color splash ",
-                style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+    return Material(
+      color: Color.fromARGB(255, 164, 226, 255),
+      child: Center(
+        child: SafeArea(
+          child: SingleChildScrollView(
+            controller: ScrollController(),
+            scrollDirection: Axis.vertical,
+            child: Expanded(
+              child: Column(
+                children: [
+                  Card(
+                    shadowColor: Colors.red[900],
+                    elevation: 10,
+                    child: AnimatedContainer(
+                      duration: Duration(seconds: 1),
+                      height: 200,
+                      decoration: BoxDecoration(
+                        color: Color.fromARGB(255, 135, 153, 254),
+                        borderRadius: BorderRadius.circular(4),
+                      ),
+                      alignment: Alignment.center,
+                      child: Text('Hi'),
+                    ),
+                  ),
+                  Padding(
+                    padding:
+                        const EdgeInsets.symmetric(vertical: 10, horizontal: 0),
+                    child: Card(
+                      shadowColor: Colors.red[900],
+                      elevation: 10,
+                      child: AnimatedContainer(
+                        duration: Duration(seconds: 1),
+                        height: 200,
+                        decoration: BoxDecoration(
+                          color: Color.fromARGB(255, 135, 153, 254),
+                          borderRadius: BorderRadius.circular(4),
+                        ),
+                      ),
+                    ),
+                  ),
+                  Card(
+                    shadowColor: Colors.red[900],
+                    elevation: 10,
+                    child: AnimatedContainer(
+                      duration: Duration(seconds: 1),
+                      width: 295,
+                      height: 200,
+                      decoration: BoxDecoration(
+                        color: Color.fromARGB(255, 135, 153, 254),
+                        borderRadius: BorderRadius.circular(4),
+                      ),
+                    ),
+                  ),
+                  Padding(
+                    padding: EdgeInsets.symmetric(vertical: 10, horizontal: 0),
+                    child: Card(
+                      shadowColor: Colors.red[900],
+                      elevation: 10,
+                      child: AnimatedContainer(
+                        duration: Duration(seconds: 1),
+                        height: 200,
+                        decoration: BoxDecoration(
+                          color: Color.fromARGB(255, 135, 153, 254),
+                          borderRadius: BorderRadius.circular(4),
+                        ),
+                      ),
+                    ),
+                  ),
+                  Padding(
+                    padding: EdgeInsets.symmetric(vertical: 10, horizontal: 0),
+                    child: Card(
+                      shadowColor: Colors.red[900],
+                      elevation: 10,
+                      child: AnimatedContainer(
+                        duration: Duration(seconds: 1),
+                        width: 295,
+                        height: 200,
+                        decoration: BoxDecoration(
+                          color: Color.fromARGB(255, 135, 153, 254),
+                          borderRadius: BorderRadius.circular(4),
+                        ),
+                      ),
+                    ),
+                  ),
+                  Padding(
+                    padding: EdgeInsets.symmetric(vertical: 10, horizontal: 0),
+                    child: Card(
+                      shadowColor: Colors.red[900],
+                      elevation: 10,
+                      child: AnimatedContainer(
+                        duration: Duration(seconds: 1),
+                        height: 200,
+                        decoration: BoxDecoration(
+                          color: Color.fromARGB(255, 135, 153, 254),
+                          borderRadius: BorderRadius.circular(4),
+                        ),
+                      ),
+                    ),
+                  ),
+                ],
               ),
             ),
           ),
-        ],
+        ),
       ),
-    ));
+    );
   }
 }

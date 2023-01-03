@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+
 import 'package:flutter_app/firstpage.dart';
 import 'package:flutter_app/secondpage.dart';
 import 'package:flutter_app/loginpage.dart';
@@ -12,11 +13,10 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    
     // ignore: prefer_const_constructors
     return MaterialApp(
       theme: ThemeData(primarySwatch: Colors.indigo),
-      initialRoute: '/',
+      initialRoute: "/1",
       // ignore: prefer_const_literals_to_create_immutables
       routes: {
         '/1': (context) => const firstpage(),
