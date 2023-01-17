@@ -49,16 +49,20 @@ class Call extends StatelessWidget {
                       ),
                     ),
                   ),
-                  Card(
-                    shadowColor: Colors.red[900],
-                    elevation: 10,
-                    child: AnimatedContainer(
-                      duration: Duration(seconds: 1),
-                      width: 295,
-                      height: 200,
-                      decoration: BoxDecoration(
-                        color: Color.fromARGB(255, 135, 153, 254),
-                        borderRadius: BorderRadius.circular(4),
+                  Padding(
+                    padding:
+                        const EdgeInsets.symmetric(vertical: 10, horizontal: 0),
+                    child: Card(
+                      shadowColor: Colors.red[900],
+                      elevation: 10,
+                      child: AnimatedContainer(
+                        duration: Duration(seconds: 1),
+                        width: 295,
+                        height: 200,
+                        decoration: BoxDecoration(
+                          color: Color.fromARGB(255, 135, 153, 254),
+                          borderRadius: BorderRadius.circular(4),
+                        ),
                       ),
                     ),
                   ),

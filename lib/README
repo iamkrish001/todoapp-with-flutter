@@ -12,3 +12,31 @@
 //               icon: Icon(Icons.settings), label: "Settings "),
 //         ],
 //       ),
+  // appBar: AppBar(
+
+      //   title: const Text('firstpage'),
+      //   centerTitle: true,
+      //   // ignore: prefer_const_literals_to_create_immutables
+      //   actions: <Widget>[
+      //     IconButton(onPressed: () {}, icon: const Icon(Icons.home)),
+      //     IconButton(
+      //       onPressed: () {},
+      //       icon: const Icon(Icons.person),
+      //     )
+      //   ],
+      // ),
+
+      // PageView(
+      //   controller: _pageController,
+      //   onPageChanged: (index) {
+      //     setState(() {
+      //       _currentindex = index;
+      //     });
+      //   },
+      //   children: const [
+
+      //   ],
+      // ),
+
+      // ignore: prefer_const_literals_to_create_immutables
+//      bot

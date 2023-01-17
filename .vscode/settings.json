@@ -33,5 +33,6 @@
     "**/.vscode",
     "**/.vscode/**"
   ],
-  "java.configuration.updateBuildConfiguration": "automatic"
+  "java.configuration.updateBuildConfiguration": "automatic",
+  "cmake.configureOnOpen": false
 }
