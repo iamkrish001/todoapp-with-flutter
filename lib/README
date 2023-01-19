@@ -40,3 +40,24 @@
 
       // ignore: prefer_const_literals_to_create_immutables
 //      bot
+
+
+ 
+//  floatingActionButton: SpeedDial(
+//         spaceBetweenChildren: 2,
+//         child: IconButton(
+//             onPressed: () async {
+//               await Share.share("This is a text");
+//             },
+//             icon: Icon(Icons.share)),
+//         children: [
+//           SpeedDialChild(
+//               child: Icon(FontAwesomeIcons.instagram,
+//                   semanticLabel: "Share to instagram")),
+//           SpeedDialChild(
+//               child: Icon(Icons.facebook, semanticLabel: "Share to Facebook")),
+//           SpeedDialChild(
+//               child: Icon(FontAwesomeIcons.twitter,
+//                   semanticLabel: "Share to Twitter")),
+//         ],
+//       ),

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_app/firstpage.dart';
 import 'package:flutter_app/secondpage.dart';
-import 'package:flutter_app/loginpage.dart';
+import 'package:flutter_app/loginpage.dart'; 
 import 'package:google_fonts/google_fonts.dart';
 void main() {
   runApp(const MyApp());
@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
       initialRoute: "/1",
       // ignore: prefer_const_literals_to_create_immutables
       routes: {
-        '/1': (context) =>  firstpage(),
+        '/1': (context) =>  const firstpage(),
         '/2': (context) => const secondpage(),
       },
       debugShowCheckedModeBanner: false,
