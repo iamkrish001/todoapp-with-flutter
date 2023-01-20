@@ -46,7 +46,7 @@ class Profile extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return Scaffold( 
       backgroundColor: Colors.white,
       appBar: AppBar(
           leading: Icon(Icons.arrow_back_ios_rounded, color: Colors.black26),
@@ -57,7 +57,7 @@ class Profile extends StatelessWidget {
             "Profile",
             style: TextStyle(color: Colors.black26),
           )),
-      body: SingleChildScrollView(
+      body: SingleChildScrollView( 
         child: Center(
           child: Column(
             children: [
