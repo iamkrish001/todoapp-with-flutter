@@ -1,0 +1,63 @@
+ bottomNavigationBar: BottomNavigationBar(
+//         currentIndex: _currentindex,
+//         onTap: (index) {
+//           _pageController.animateToPage(index,
+// duration: Duration(seconds: 1), curve: Curves.decelerate);
+//         },
+//         // ignore: prefer_const_literals_to_create_immutables
+//         items: [
+//           BottomNavigationBarItem(icon: Icon(Icons.chat), label: "Chat"),
+//           BottomNavigationBarItem(icon: Icon(Icons.call), label: "Call"),
+//           BottomNavigationBarItem(
+//               icon: Icon(Icons.settings), label: "Settings "),
+//         ],
+//       ),
+  // appBar: AppBar(
+
+      //   title: const Text('firstpage'),
+      //   centerTitle: true,
+      //   // ignore: prefer_const_literals_to_create_immutables
+      //   actions: <Widget>[
+      //     IconButton(onPressed: () {}, icon: const Icon(Icons.home)),
+      //     IconButton(
+      //       onPressed: () {},
+      //       icon: const Icon(Icons.person),
+      //     )
+      //   ],
+      // ),
+
+      // PageView(
+      //   controller: _pageController,
+      //   onPageChanged: (index) {
+      //     setState(() {
+      //       _currentindex = index;
+      //     });
+      //   },
+      //   children: const [
+
+      //   ],
+      // ),
+
+      // ignore: prefer_const_literals_to_create_immutables
+//      bot
+
+
+ 
+//  floatingActionButton: SpeedDial(
+//         spaceBetweenChildren: 2,
+//         child: IconButton(
+//             onPressed: () async {
+//               await Share.share("This is a text");
+//             },
+//             icon: Icon(Icons.share)),
+//         children: [
+//           SpeedDialChild(
+//               child: Icon(FontAwesomeIcons.instagram,
+//                   semanticLabel: "Share to instagram")),
+//           SpeedDialChild(
+//               child: Icon(Icons.facebook, semanticLabel: "Share to Facebook")),
+//           SpeedDialChild(
+//               child: Icon(FontAwesomeIcons.twitter,
+//                   semanticLabel: "Share to Twitter")),
+//         ],
+//       ),

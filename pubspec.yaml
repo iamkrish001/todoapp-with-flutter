@@ -42,6 +42,13 @@ dependencies:
   firebase_core: ^2.4.0
   google_sign_in: ^5.4.2
   google_fonts: ^3.0.1
+  smooth_page_indicator: ^1.0.0+2
+  flutter_speed_dial: ^6.2.0
+  flutter_svg: ^1.1.6
+  font_awesome_flutter: ^10.3.0
+  community_material_icon: ^5.9.55
+  dropdown_button2: ^1.9.2
+  share_plus: ^6.3.0
 
 
 dev_dependencies:
